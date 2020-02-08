@@ -10,12 +10,12 @@
 
         // Oxford Face API Primary should be entered here
         // You can obtain a subscription key for Face API by following the instructions here: https://azure.microsoft.com/en-us/try/cognitive-services/
-        public const string OxfordAPIKey = "OXFORD_KEY_HERE";
+        public const string OxfordAPIKey = "0ac174fd4ecd4a73834b196afac96268E";
 
         // Enter the API endpoint address.
         // If you have a 'free trial' key, you can find the here: https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/
         // If you have a key from Azure, find your account here: https://portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.CognitiveServices%2Faccounts.
-        public const string FaceAPIEndpoint = "https://westus.api.cognitive.microsoft.com/face/v1.0";
+        public const string FaceAPIEndpoint = "https://westus2.api.cognitive.microsoft.com/";
         
         // Name of the folder in which all Whitelist data is stored
         public const string WhiteListFolderName = "Facial Recognition Door Whitelist";
